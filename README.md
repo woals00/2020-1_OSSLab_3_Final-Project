@@ -23,7 +23,7 @@
 >1. index.php 만들기  
 >* sudo vim index.php
 >2. php content 입력해주기  
-'''
+'''c
  <?php echo "hello world"; ?>
 '''  
 >3. index.html 삭제해주기  

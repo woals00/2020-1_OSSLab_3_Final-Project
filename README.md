@@ -19,14 +19,14 @@
 
 3. PHP 설치  
 * 커맨드 : sudo apt-get install php -y  
->3-1. PHP테스트  
->1. index.php 만들기  
->* sudo vim index.php
->2. php content 입력해주기  
-'''bash
- <?php echo "hello world"; ?>
-'''  
->3. index.html 삭제해주기  
->* sudo rm index.html  
-[work-well](https://projects-static.raspberrypi.org/projects/lamp-web-server-with-wordpress/40bbe4fdff0772fc22e960571225292240b37910/en/images/apache-hello-world.png)  
-> 이런 이미지를 보았다면 제대로 작동한것
+	* 3-1. PHP테스트  
+		1. index.php 만들기  
+		* sudo vim index.php
+		2. php content 입력해주기  
+		'''bash
+		<?php echo "hello world"; ?>
+		'''
+		3. index.html 삭제해주기  
+		* sudo rm index.html  
+		[work-well](https://projects-static.raspberrypi.org/projects/lamp-web-server-with-wordpress/40bbe4fdff0772fc22e960571225292240b37910/en/images/apache-hello-world.png)  
+		 이런 이미지를 보았다면 제대로 작동한것

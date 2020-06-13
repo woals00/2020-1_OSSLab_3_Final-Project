@@ -47,4 +47,61 @@ sudo apt-get install mysql-server php-mysql -y
 sudo service apache2 restart
 ```
 
+5. WordPress 다운로드
+* go to /var/www/html/ and delete all the files in the folder.
+```
+cd /var/www/html/
+sudo rm *
+```
+
+* download WordPress using \*\*wget\*\*
+```
+sudo wget http://wordpress.org/latest.tar.gz
+sudo tar xzf latest.tar.gz
+sudo mv wordpress/* .
+sudo rm -rf wordpress latest.tar.gz
+sudo chown -R www-data: .
+```
+
+6. WordPress의 Database를 setup하기
+```
+sudo mysql_secure_installation
+```
+* You will be asked \*\*Enter current password for root (enter for none)\*\*: — press Enter.
+* (비밀번호를 바꾸고 싶다면)Type in Y and press Enter to
+```
+Set root password?.
+```
+* Type \*\*Y\*\* to following question.
+* Create the WordPress Database
+```
+sudo mysql -uroot -p
+```
+* Type the command below
+```
+create database wordpress;
+```
+```
+GRANT ALL PRIVILEGES ON wordpress.* TO 'root'@'localhost' IDENTIFIED BY 'YOURPASSWORD';
+```
+```
+FLUSH PRIVILEGES;
+```
+
+6. WordPress Configuration
+* Open the web browser on your Pi and goto \*\*http://localhost\*\*, you should see a WordPress page asking to pick your language.
+* Select your language and click Continue
+* Click the Let’s go! button
+* Now fill out the basic site information as follows:
+```
+Database Name:      wordpress
+User Name:          root
+Password:           <YOUR PASSWORD>
+Database Host:      localhost
+Table Prefix:       wp_
+```
+* Click Submit to proceed and click the Run the install button.
+* Fill out the information: give your site a title, create a username and password, and enter your email address. Hit the Install WordPress button, then log in using the account you just created.
+* Now you’re logged in and have your site set up, you can see the website by visiting your \*\*http://localhost/wp-admim\*\*
+
 

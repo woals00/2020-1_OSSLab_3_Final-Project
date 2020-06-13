@@ -22,7 +22,8 @@ sudo apt-get install apache2 -y
 3. PHP 설치
 ```
 sudo apt-get install php -y
-```  
+``` 
+ 
 	* 3-1. PHP테스트  
 		1. index.php 만들기  
 			* sudo vim index.php

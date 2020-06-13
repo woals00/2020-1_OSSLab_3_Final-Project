@@ -8,8 +8,8 @@
 
 ## How do I get Start?
 >1. Apache 설치
->* Open a terminal window by selecting Accessories > Terminal from the menu.
->* Install the apache2 package by typing the following command into the terminal and pressing Enter:
-'''
-sudo apt-get install apache2 -y
-'''
+Open a terminal window by selecting Accessories > Terminal from the menu.
+Install the apache2 package by typing the following command into the terminal and pressing Enter:
+* sudo apt-get install apache2 -y
+
+ 

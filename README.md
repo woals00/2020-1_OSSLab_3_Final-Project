@@ -1,7 +1,14 @@
 # Build a LAMP Web Server with WordPress
 
 ## What does this project do?
-* 이 프로그램은 Raspberry Pi에 LAMP(Linux, Apache, MySQL, PHP) 스택을 설정하고 웹 서버로 작동하도록 구성하는 프로그램입니다. WordPress를설치하고 Website를 세팅해서 Raspberry Pi와 같은 네트워크에 있으면 누구든지 접속할 수 있도록 설정할 수 있습니다. 
+* 이 프로그램은 Raspberry Pi에 LAMP(Linux, Apache, MySQL, PHP) 스택을 설정하고 웹 서버로 작동하도록 구성하는 프로그램입니다. WordPress를설치하고 Website를 세팅해서 Raspberry Pi와 같은 네트워크에 있으면 누구든지 접속할 수 있도록 설정할 수 있습니다. 모든 구현이 끝난 후엔 WordPress를 활용해 홈페이지 개발도 해볼 수 있습니다. 
+
+## Why is this project useful?
+* 이 프로그램을 통해 만든 자신만의 WordPress는 이런 장점을 가집니다.
+1. Mobile Optimization
+2. Reactive web
+3. Easy usage
+4. Outstanding cost-effectiveness
 
 ## What you will need
 * A Raspberry Pi computer connected to the internet.
@@ -104,4 +111,6 @@ Table Prefix:       wp_
 * Fill out the information: give your site a title, create a username and password, and enter your email address. Hit the Install WordPress button, then log in using the account you just created.
 * Now you’re logged in and have your site set up, you can see the website by visiting your http://localhost/wp-admim
 
+## Where can I get more help, if I need it? 
+https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress
 

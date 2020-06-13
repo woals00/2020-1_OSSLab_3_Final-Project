@@ -8,8 +8,12 @@
 
 ## How do I get Start?
 1. Apache 설치  
-Open a terminal window by selecting Accessories > Terminal from the menu.  
-Install the apache2 package by typing the following command into the terminal and pressing Enter:  
+*Open a terminal window by selecting Accessories > Terminal from the menu.  
+*Install the apache2 package by typing the following command into the terminal and pressing Enter:  
 * sudo apt-get install apache2 -y
 
- 
+2. Web Service 테스트  
+*Open the Apache default web page on your Raspberry Pi:  
+	*Open Chromium by selecting Internet > Chromium Web Browser from the menu.  
+	*Enter the address http://localhost
+

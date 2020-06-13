@@ -26,5 +26,5 @@
 > * ex) <?php echo "hello world"; ?>  
 >3. index.html 삭제해주기  
 > * sudo rm index.html  
-> [image](https://projects-static.raspberrypi.org/projects/lamp-web-server-with-wordpress/40bbe4fdff0772fc22e960571225292240b37910/en/images/apache-hello-world.png)  
+> ![image](https://projects-static.raspberrypi.org/projects/lamp-web-server-with-wordpress/40bbe4fdff0772fc22e960571225292240b37910/en/images/apache-hello-world.png)  
 > 이런 이미지를 보았다면 제대로 작동한것

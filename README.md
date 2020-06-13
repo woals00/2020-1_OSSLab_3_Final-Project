@@ -89,7 +89,7 @@ FLUSH PRIVILEGES;
 ```
 
 6. WordPress Configuration
-* Open the web browser on your Pi and goto \*\*http://localhost\*\*, you should see a WordPress page asking to pick your language.
+* Open the web browser on your Pi and goto http://localhost, you should see a WordPress page asking to pick your language.
 * Select your language and click Continue
 * Click the Let’s go! button
 * Now fill out the basic site information as follows:
@@ -102,6 +102,6 @@ Table Prefix:       wp_
 ```
 * Click Submit to proceed and click the Run the install button.
 * Fill out the information: give your site a title, create a username and password, and enter your email address. Hit the Install WordPress button, then log in using the account you just created.
-* Now you’re logged in and have your site set up, you can see the website by visiting your \*\*http://localhost/wp-admim\*\*
+* Now you’re logged in and have your site set up, you can see the website by visiting your http://localhost/wp-admim
 
 

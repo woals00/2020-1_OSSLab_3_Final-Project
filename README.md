@@ -114,6 +114,8 @@ Table Prefix:       wp_
 * Fill out the information: give your site a title, create a username and password, and enter your email address. Hit the Install WordPress button, then log in using the account you just created.
 * Now you’re logged in and have your site set up, you can see the website by visiting your http://localhost/wp-admim
 
-## Where can I get more help, if I need it? 
+## Where can I get more help, if I need it?(출처) 
 https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress
 
+## 추가한 작업들
+자신만의 사이트를 구성할 수 있는 방법 제시
